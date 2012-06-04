@@ -5,7 +5,7 @@ namespace DataGrid\Columns;
 use Nette\Utils;
 
 class HtmlColumn
-extends TextColumn
+extends Column
 {
 	
 	public function formatContent($value, $data = NULL)
